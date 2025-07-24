@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>كتب كودستان</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0; padding: 0;
+      background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
+      color: white;
+      direction: rtl;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem 1rem;
+      background: rgba(25,25,25,0.82);
+      border-bottom: 4px solid #ffae00;
+      box-shadow: 0 10px 40px 0 #0077ff33;
+    }
+    header h1 {
+      margin: 0.3rem 0;
+      font-weight: 700;
+      font-size: 2.2rem;
+      color: #ffae00;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem;
+    }
+    .card {
+      background: rgba(34,40,49,0.95);
+      border-radius: 20px;
+      box-shadow: 0 4px 32px #0077ff40;
+      width: 280px;
+      padding: 1.2rem;
+      text-align: center;
+      border: 1.5px solid #ffae0040;
+      transition: transform 0.18s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px) scale(1.02) rotate(-0.8deg);
+      box-shadow: 0 6px 24px #ffae00bb, 0 2px 10px #0077ff99;
+    }
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: contain;
+      border-radius: 20px;
+      margin-bottom: 0.8rem;
+      box-shadow: 0 6px 18px #0077ff88;
+      border: 3px solid #ffae0099;
+      background: linear-gradient(145deg, #ffae0033, #0077ff33);
+    }
+    .card h3 {
+      margin: 0.4rem 0 0.3rem 0;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      line-height: 1.3;
+      color: #ccc;
+      min-height: 45px;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 0.8rem;
+      background: #0077ff;
+      color: #fff;
+      padding: 6px 18px;
+      border-radius: 15px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    .card a:hover {
+      background: #ffae00;
+      color: #222;
+    }
+    @media (max-width: 700px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      .card {
+        width: 80vw;
+        max-width: 280px;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 مكتبة كودستان</h1>
+  </header>  <div class="container">
+    <div class="cards"><div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="كتاب الأول" />
+    <h3>الكتاب الاول</h3>
+    <p>كتاب شامل يشرح الذكاء الاصطناعي وكيفية استخدامه.</p>
+    <a href="https://drive.google.com/file/d/1AzJBDLrEGihqMDrgrqE9ukDypH6WCFoV/view?usp=drivesdk">تحميل الكتاب</a>
+  </div>
+
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/3534/3534067.png" alt="كتاب الثاني" />
+    <h3>الكتاب الثاني</h3>
+    <p>يحتوي على اشهر 6 طرق لاختراق حساب انستجرام.</p>
+    <a href="https://drive.google.com/file/d/1VFdXoQ3B0--Ld20Be-uFybWpNswemdc2/view?usp=drivesdk">تحميل الكتاب</a>
+  </div>
+
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="كتاب الثالث" />
+    <h3>الكتاب الثالث</h3>
+    <p>مدخل رائع للهندسه الاجتماعيه ويحتوي على طرق لاختراق حساب Gmail بدون كلمة سر.</p>
+    <a href="https://drive.google.com/file/d/1CToZKpjzOc6Ld7jYgaiN9xdyYbiEB2TX/view?usp=drivesdk">تحميل الكتاب</a>
+  </div>
+
+</div>
+
+  </div>  <footer style="text-align: center; padding: 20px; background-color: #f2f2f2; color: #333; font-family: 'Cairo', sans-serif; font-size: 14px;">
+    &copy; 2025 <strong>كودستان</strong> — جميع الحقوق محفوظة.
+  </footer>
+</body>
+</html>

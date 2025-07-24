@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>منصة كودستان الرقمية</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap');
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
+      color: white;
+      direction: rtl;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 1.5rem 1rem 1rem;
+      background: rgba(25, 25, 25, 0.85);
+      border-bottom: 3px solid #ffae00;
+      box-shadow: 0 6px 30px 0 #0077ff33;
+    }
+
+    header h1 {
+      margin: 0.2rem 0;
+      font-size: 1.6rem;
+      color: #ffae00;
+      font-weight: 700;
+    }
+
+    header p {
+      opacity: 0.9;
+      font-size: 0.95rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 100%;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .card {
+      background: rgba(34, 40, 49, 0.95);
+      border-radius: 15px;
+      box-shadow: 0 3px 18px #0077ff40;
+      width: 200px;
+      padding: 1rem;
+      text-align: center;
+      border: 1px solid #ffae0033;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 6px 22px #ffae00aa, 0 2px 8px #0077ffaa;
+    }
+
+    .card img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      margin-bottom: 0.7rem;
+    }
+
+    .card h3 {
+      font-size: 0.95rem;
+      font-weight: bold;
+      margin: 0.2rem 0 0.3rem;
+    }
+
+    .card p {
+      font-size: 0.8rem;
+      opacity: 0.85;
+    }
+
+    @media (max-width: 500px) {
+      .card {
+        width: 90%;
+        max-width: 260px;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>منصة كودستان للابتكار الرقمي</h1>
+  <p>مركزك الأول للخدمات الرقمية المتميزة! اكتشف خدماتنا التقنية الإبداعية.</p>
+</header>
+
+<div class="container">
+  <div class="cards">
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/922/922699.png" alt="تصميم المواقع">
+      <h3>تصميم المواقع الإلكترونية</h3>
+      <p>نصمم مواقع احترافية متوافقة مع جميع الأجهزة.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2799/2799249.png" alt="تصميم وكتابة الكتب">
+      <h3>تصميم وكتابة الكتب</h3>
+      <p>إعداد كتب تعليمية وتسويقية بجودة عالية.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="توثيق فيس بوك">
+      <h3>توثيق حسابات فيس بوك</h3>
+      <p>نوفر لك خدمة التوثيق الرسمي لحسابك.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" alt="نشاطات جوجل">
+      <h3>توثيق الأنشطة على جوجل</h3>
+      <p>ظهور نشاطك التجاري على خرائط ومحركات بحث جوجل.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/893/893257.png" alt="SEO">
+      <h3>الظهور في محركات بحث جوجل</h3>
+      <p>تحسين محركات البحث (SEO) ورفع ترتيب موقعك.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4205/4205352.png" alt="الملفات التجارية">
+      <h3>إنشاء ملفات تجارية</h3>
+      <p>بناء هوية رقمية كاملة لنشاطك التجاري.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721293.png" alt="تطوير المواقع">
+      <h3>تطوير المواقع والبرمجيات</h3>
+      <p>برمجة مخصصة تلبي متطلبات أعمالك.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/685/685655.png" alt="تصميم جرافيك">
+      <h3>تصميم الجرافيك والعروض</h3>
+      <p>عروض مرئية مبهرة وتصاميم متناسقة لهويتك.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1125/1125056.png" alt="الأمن السيبراني">
+      <h3>الأمن السيبراني</h3>
+      <p>حماية بياناتك وتقييم الثغرات الأمنية.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3030/3030336.png" alt="التعليم الإلكتروني">
+      <h3>التعليم الإلكتروني</h3>
+      <p>صناعة محتوى تعليمي متفاعل وحديث.</p>
+    </div>
+  </div>
+</div>
+
+<footer style="text-align: center; padding: 15px; background-color: #f2f2f2; color: #333; font-family: 'Cairo', sans-serif; font-size: 13px;">
+  &copy; 2025 <strong>  اسماعيل الدلالي</strong> — جميع الحقوق محفوظة.<br>
+  Developed by <a href="https://wa.me/967712994615" target="_blank" style="color: #007bff; text-decoration: none;">Ismail Al-Dallali</a>
+</footer>
+</body>
+</html>

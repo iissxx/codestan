@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>كـودستــان - المواد الدراسية</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0; padding: 0;
+      background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
+      color: white;
+      direction: rtl;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem 1rem;
+      background: rgba(25,25,25,0.82);
+      border-bottom: 4px solid #ffae00;
+      box-shadow: 0 10px 40px 0 #0077ff33;
+    }
+    header h1 {
+      margin: 0.3rem 0;
+      font-weight: 700;
+      font-size: 2.2rem;
+      color: #ffae00;
+    }
+    header p {
+      opacity: 0.85;
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem;
+    }
+    .card {
+      background: rgba(34,40,49,0.95);
+      border-radius: 20px;
+      box-shadow: 0 4px 32px #0077ff40;
+      width: 260px;
+      padding: 1.2rem;
+      text-align: center;
+      border: 1.5px solid #ffae0040;
+      transition: transform 0.18s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px) scale(1.02) rotate(-0.8deg);
+      box-shadow: 0 6px 24px #ffae00bb, 0 2px 10px #0077ff99;
+    }
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: contain;
+      border-radius: 20px;
+      margin-bottom: 0.8rem;
+      box-shadow: 0 6px 18px #0077ff88;
+      border: 3px solid #ffae0099;
+      background: linear-gradient(145deg, #ffae0033, #0077ff33);
+    }
+    .card h3 {
+      margin: 0.4rem 0 0.3rem 0;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 0.8rem;
+      background: #0077ff;
+      color: #fff;
+      padding: 6px 18px;
+      border-radius: 15px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .card a:hover {
+      background: #ffae00;
+      color: #222;
+    }
+    @media (max-width: 700px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      .card {
+        width: 80vw;
+        max-width: 280px;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body><header>
+  <h1>المواد الدراسية - كـودستــان</h1>
+  <p>استعرض كتب وملخصات كل مادة بسهولة وبواجهة مميزة.</p>
+</header><div class="container">
+  <div class="cards">
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="القرآن الكريم">
+      <h3>القرآن الكريم</h3>
+      <a href="quran.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2422/2422805.png" alt="التجويد">
+      <h3>التجويد</h3>
+      <a href="tajweed.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2739/2739878.png" alt="الرياضيات">
+      <h3>الرياضيات</h3>
+      <a href="mathematics.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2555/2555250.png" alt="الإنجليزي">
+      <h3>اللغة الإنجليزية</h3>
+      <a href="english.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" alt="الأحياء">
+      <h3>الأحياء</h3>
+      <a href="biology.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3104/3104632.png" alt="الكيمياء">
+      <h3>الكيمياء</h3>
+      <a href="chemistry.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1754/1754472.png" alt="الفيزياء">
+      <h3>الفيزياء</h3>
+      <a href="physics.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3447/3447752.png" alt="اللغة العربية">
+      <h3>اللغة العربية</h3>
+      <a href="arbic.html">عرض الكتب</a>
+    </div>
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3909/3909444.png" alt="التربية الإسلامية">
+      <h3>التربية الإسلامية</h3>
+      <a href="islamic.html">عرض الكتب</a>
+    </div>
+  </div>
+</div><footer style="text-align: center; padding: 20px; background-color: #f2f2f2; color: #333; font-family: 'Cairo', sans-serif; font-size: 14px;">
+  &copy; 2025 <strong>كـودستان</strong> — جميع الحقوق محفوظة لدى إسماعيل الدلالي.<br>
+  Designed & Developed by <a href="https://wa.me/967712994615" target="_blank" style="color: #007bff; text-decoration: none;">Ismail Al-Dallali</a>
+</footer></body>
+</html>
